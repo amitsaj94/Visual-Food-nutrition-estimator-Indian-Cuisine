@@ -3,6 +3,7 @@ This project is a deep learning–based system that estimates calories and macro
 
 
 📊 Dataset Overview
+
 This project uses a dataset of 1,014 Indian food items with detailed nutritional information. Each entry includes:
 
 Nutritional values per 100 grams, such as:
@@ -29,8 +30,8 @@ Indian Nutrient Databank (INDB), provided by the anuvaad solutions:
 🔍 Note: The raw data was cleaned and formatted for use in deep learning models. Missing values were handled, serving sizes were estimated where applicable, and redundant fields were removed.
 
 
-
 🧼 Data Cleaning Strategy
+
 To ensure high-quality inputs for training while preserving as much data as possible, a delayed-drop strategy was used. Instead of immediately removing rows with missing values, missing fields were evaluated only after relevant calculations were completed.
 
 📋 Key Steps
