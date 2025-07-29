@@ -2,6 +2,34 @@
 This project is a deep learning–based system that estimates calories and macronutrients (protein, carbs, fat) from images of Indian food. It combines image classification using fastai with a curated nutrition database to provide practical dietary insights for wellness, fitness, and health tech applications.
 
 
+📊 Dataset Overview
+This project uses a dataset of 1,014 Indian food items with detailed nutritional information. Each entry includes:
+
+Nutritional values per 100 grams, such as:
+
+energy_kcal, carb_g, protein_g, fat_g, sugar_g, fibre_g, sodium_mg, and more
+
+Optional values per serving, including:
+
+unit_serving_energy_kcal, unit_serving_protein_g, etc.
+
+servings_unit (e.g., tea cup, katori, bowl)
+
+Food metadata:
+
+food_code, food_name, primarysource
+
+These features enable nutritional analysis and real-world portion estimation, which supports tasks such as calorie and macronutrient prediction from food images — a key focus of this project.
+
+📎 Data Source
+Indian Nutrient Databank (INDB), provided by the anuvaad solutions:
+
+🔗 https://www.anuvaad.org.in/indian-nutrient-databank/
+
+🔍 Note: The raw data was cleaned and formatted for use in deep learning models. Missing values were handled, serving sizes were estimated where applicable, and redundant fields were removed.
+
+
+
 🧼 Data Cleaning Strategy
 To ensure high-quality inputs for training while preserving as much data as possible, a delayed-drop strategy was used. Instead of immediately removing rows with missing values, missing fields were evaluated only after relevant calculations were completed.
 
