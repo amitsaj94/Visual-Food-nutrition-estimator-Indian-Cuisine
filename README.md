@@ -22,19 +22,12 @@ Dropped Based on Core Nutritional Fields Only
 Final cleaning retained only rows with valid values in the most essential columns:
 
 calories_kcal
-
 carbs_g
-
 protein_g
-
 fat_g
-
 sugar_g
-
 fibre_g
-
 sodium_mg
-
 serving_size_g
 
 This led to a final dataset of 932 complete and clean rows, compared to 914 rows using the earlier drop-first approach.
