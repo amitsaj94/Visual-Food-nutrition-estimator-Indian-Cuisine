@@ -6,6 +6,7 @@ This project is a deep learning–based system that estimates calories and macro
 To ensure high-quality inputs for training while preserving as much data as possible, a delayed-drop strategy was used. Instead of immediately removing rows with missing values, missing fields were evaluated only after relevant calculations were completed.
 
 📋 Key Steps
+
 1:Initial Dataset Inspection
 The dataset included nutritional values per 100g and sometimes per serving. However, some rows were missing fields like unit_serving_energy_kcal or servings_unit, which were not always critical to model training.
 
